@@ -1,7 +1,8 @@
 FROM caddy:2.11-builder-alpine AS builder
 
 RUN xcaddy build \
-    --with github.com/caddy-dns/cloudflare
+    --with github.com/caddy-dns/cloudflare \
+    --with github.com/mholt/caddy-ratelimit
 
 FROM caddy:2.11-alpine
 

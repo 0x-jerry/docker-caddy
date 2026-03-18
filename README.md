@@ -1,6 +1,6 @@
 # Caddy with cloudflare-dns
 
-Custom [caddy] image with [cloudflare-dns]. Detail in [Dockerfile].
+Custom [caddy] image with [cloudflare-dns] and [caddy-ratelimit]. Detail in [Dockerfile].
 
 ## Usage
 
@@ -30,3 +30,4 @@ services:
 [caddy]: https://caddyserver.com/
 [cloudflare-dns]: https://github.com/caddy-dns/cloudflare
 [Dockerfile]: https://github.com/0x-jerry/docker-caddy-cloudflaredns/blob/main/dockerfile
+[caddy-ratelimit]: https://github.com/mholt/caddy-ratelimit
